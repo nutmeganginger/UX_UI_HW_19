@@ -107,7 +107,7 @@ li {
 }
 
 body {
-    background-image: url(/Images/w-qjCHPZbeXCQ-unsplash.jpg); 
+    background-image: url('/Images/w-qjCHPZbeXCQ-unsplash.jpg'); 
     background-size:cover;
     background-attachment: fixed;
     margin: 0;
