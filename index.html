@@ -2,38 +2,57 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/qxp2tds.css">
         <link rel="stylesheet" href="./css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/food/foo-6/foo515.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/11/28/rainbow-lucky-charms.html" target="_blank" title="Rainbow Lucky Charms"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Rainbow Lucky Charms" style="position:absolute; top: 0px; right: 0px;" /></a>
     </head>
     <body>
         <header class="navigation">
             <div class="inline-block logo">
-                <img src="./Images/mmm.png">
+               <img src="/Images/mmm.png">
             </div>
             <nav>
                 <ul>
-                    <li class="inline-block">About</li>
-                    <li class="inline-block">Skills</li>
-                    <li class="inline-block">Work</li>
-                    <li class="inline-block">Contact</li>
+                    <li class="inline-block"><a href="#About">ABOUT</a></li>
+                    <br>
+                    <li class="inline-block"><a href="#Work">WORK</a></li>
+                    <BR>
+                    <li class="inline-block"><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </header>
+        <a id="return-to-top">
+            <img src="/Images/noun_up_1953017.svg"/></img>
+        </a>
+        <div class="mainContainer">
+           <div class="bigIntro">
+               <h1>MEGAN MICHAEL MCCLAIN</h1>
+            </div> 
+            <div class="aboutMe">
+                <p>Left-brained creative and aspiring product designer</p>
+            </div>
+        </div>
+        <a id="About"></a>
+        <h1>ABOUT ME</h1>
         <section class="heroImg">
             <div class="content">
                 <img src="./Images/meeee.png">
                 <p>
                     My name is Megan  and I’m a burgeoning UX/UI Designer. After a few years in the Marketing field, I decided to pursue my passions for research, design, and  communication through UX/UI.
                 </p>
-                <button>
-                    Download Resume
-                </button>
+                <a target="_blank" href="https://drive.google.com/file/d/1rDp4fDsXBJYHUYMvAUMxgabIF-vkeVP7/view?usp=sharing">
+                <button class="button button--pandora">
+                  <span>Download Resume</span> 
+                  </button>
+                </a>
             </div>
         </section>
+        <a id="skills"></a>
  <!--  My UX Skills section coded using CSS flex -->
         <section class="mySkills">
             <h1>
-                My UX Skills
+                MY UX SKILLS
             </h1>
             <div class="flexContainer">
                 <div>
@@ -66,9 +85,10 @@
             </div>
         </section>
 <!-- My Work Section Constructed using CSS Grid -->
+<a id="Work"></a>
         <section class="myWork">
             <h1>
-                My Work
+                MY WORK
             </h1>
             <section class="workGrid">
                 <div class="mobileAppimg">
@@ -81,8 +101,8 @@
                     <p>
                         Our UX team researched, prototyped, tested, and validated an idea for a brand-new mobile application: Eco Collective. This app serves to make recycling and being eco-conscious more accessible. 
                     </p>
-                    <button>
-                        View case study
+                    <button class="button button--pandora">
+                       <span> View case study</span>
                     </button>
                 </div>
                 <div class="nonProfitimg">
@@ -95,22 +115,58 @@
                     <p>
                         Our team completed both the UX and UI design process in order to redesign the Utah Open Lands website. We conducted research, prototyped, tested and iterated to come up with our final deliverable. 
                     </p>
-                    <button>
-                        View case study
+                    <button class="button button--pandora">
+                       <span> View case study</span>
                     </button>
                 </div>
             </section>
             <h3 class="allProjects">
-                View all projects
+                VIEW ALL PROJECTS
             </h3>
         </section>
+        <a id="contact"></a>
+        <section class="contactMe">
+            <h1>
+                CONTACT
+            </h1>
+            <div class="flexContainer2">
+                <div>
+                    <h3>
+                        PHONE    
+                    </h3>
+                    <p>
+                        801 810 5320
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        EMAIL
+                    </h3>
+                    <p>
+                       <a href="mailto:megan.michael.mcclain@gmail.com">megan.michael.mcclain@gmail.com</a> 
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h3>
+                        LINKEDIN
+                    </h3>
+                    <p>
+                        <a href="https://www.linkedin.com/in/meganmmcclain/" target="_blank">https://www.linkedin.com/in/meganmmcclain/
+                    </a>
+                </p>
+                </div>
+            </div>
+        </section>
+        <br>
         <footer>
             <ul>
-                <li class="inline-block">About</li>
-                <li class="inline-block">Skills</li>
-                <li class="inline-block">Work</li>
-                <li class="inline-block">Contact</li>
+                <li class="inline-block"><a href="#About">About</a></li>
+                <li class="inline-block"><a href="#skills">Skills</a></li>
+                <li class="inline-block"><a href="#Work">Work</a></li>
+                <li class="inline-block"><a href="#contact">Contact</a></li>
             </ul>
         </footer>
     </body>
+    <script src="/js/index.js"></script>
 </html>
