@@ -83,8 +83,8 @@ img {
 .bigIntro h1{
     font-size: 144px;
     text-align: left;
-    margin-top: -10px;
-    line-height: 1.25;
+    margin-top: -2px;
+    line-height: 1;
 }
 
 .aboutMe p {
@@ -92,7 +92,7 @@ img {
     font-size: 38px;
     font-weight: 500;
     font-style: normal;
-    line-height: 1.8;
+    line-height: 1.55;
     color: white;
 }
 
