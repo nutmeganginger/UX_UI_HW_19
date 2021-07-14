@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head profile="/https://nutmeganginger.github.io/UX_UI_HW_19/">
+        <link rel="icon" 
+              type="image/png" 
+              href="/Images/mmm.png">>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/qxp2tds.css">
         <link rel="stylesheet" href="./css/style.css">
@@ -8,23 +11,29 @@
         <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/food/foo-6/foo515.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/11/28/rainbow-lucky-charms.html" target="_blank" title="Rainbow Lucky Charms"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Rainbow Lucky Charms" style="position:absolute; top: 0px; right: 0px;" /></a>
     </head>
     <body>
+        <a id="return-to-top">
+            <img src="./Images/noun_up_1953017.svg"/></img>
+        </a>
         <header class="navigation">
             <div class="inline-block logo">
                <img src="./Images/mmm.png">
             </div>
             <nav>
                 <ul>
-                    <li class="inline-block"><a href="#About">ABOUT</a></li>
+                    <li class="inline-block navLink">
+                        <a href="#About">
+                        <span data-hover="ABOUT">ABOUT</span>
+                    </a></li>
                     <br>
-                    <li class="inline-block"><a href="#Work">WORK</a></li>
+                    <li class="inline-block navLink"><a href="#Work">
+                        <span data-hover="WORK">WORK</span></a></li>
                     <BR>
-                    <li class="inline-block"><a href="#contact">CONTACT</a></li>
+                    <li class="inline-block navLink"><a href="#contact">
+                       <span data-hover="CONTACT">CONTACT</span></a></li>
                 </ul>
             </nav>
         </header>
-        <a id="return-to-top">
-            <img src="./Images/noun_up_1953017.svg"/></img>
-        </a>
+
         <div class="mainContainer">
            <div class="bigIntro">
                <h1>MEGAN MICHAEL MCCLAIN</h1>
@@ -95,9 +104,9 @@
                     <img src="./Images/iPhone XR Isometric.png">
                 </div>
                 <div class="mobileApp">
-                    <h4>
+                    <h3 class="projects">
                         Eco Collective App
-                    </h4>
+                    </h3>
                     <p>
                         Our UX team researched, prototyped, tested, and validated an idea for a brand-new mobile application: Eco Collective. This app serves to make recycling and being eco-conscious more accessible. 
                     </p>
@@ -109,9 +118,9 @@
                     <img src="./Images/PixelBook Go and Pixel 4 XL.png">
                 </div>
                 <div class="nonProfit">
-                    <h4>
+                    <h3 class="projects">
                         Utah Open Lands Redesign
-                    </h4>
+                    </h3>
                     <p>
                         Our team completed both the UX and UI design process in order to redesign the Utah Open Lands website. We conducted research, prototyped, tested and iterated to come up with our final deliverable. 
                     </p>
@@ -135,7 +144,7 @@
                         PHONE    
                     </h3>
                     <p>
-                        801 810 5320
+                        <a href="tel:8018105320">+1 801 810 5320</a>
                     </p>
                 </div>
                 <div>
@@ -162,7 +171,6 @@
         <footer>
             <ul>
                 <li class="inline-block"><a href="#About">About</a></li>
-                <li class="inline-block"><a href="#skills">Skills</a></li>
                 <li class="inline-block"><a href="#Work">Work</a></li>
                 <li class="inline-block"><a href="#contact">Contact</a></li>
             </ul>
