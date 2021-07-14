@@ -200,7 +200,7 @@ h1 {
     width: 70%;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 70% 30%;
     column-gap: 10px;
